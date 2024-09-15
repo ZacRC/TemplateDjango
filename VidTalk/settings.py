@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = [os.getenv('VPS_IP'), 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [os.getenv('VPS_IP'), 'localhost', '127.0.0.1', '167.172.224.226']
 
 
 # Application definition
